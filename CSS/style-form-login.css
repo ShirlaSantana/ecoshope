@@ -1,0 +1,79 @@
+
+body{
+    background-image: url('../IMÁGENES/fondo-form.svg');
+}
+
+.inicio-sesion{
+    position: absolute;
+    display: block;
+    top: 10%;
+    bottom: 10%;
+    left: 35%;
+    right: 35%;
+    background-color: rgb(136, 140, 13, 60%);
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.contenedor__img{
+    height: 20%;
+    margin: 15px;
+}
+
+.contenedor__img>img{
+    height: 100%
+}
+
+.formulario{
+    height: 80%;
+    margin: 20px;
+}
+
+.formulario>*{
+    display: block;
+    margin: 10%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.formulario>input{
+    width: 80%;
+}
+.formulario__btn-inicio{
+    width: 80%;
+    background-color: #B6E128;
+    color: #888C0D;
+    font-size: 20px;
+    box-shadow: 0px 2px 5px black;
+}
+
+.formulario__btn-inicio:hover{
+    border-bottom: 2px solid #888C0D;
+    box-shadow: inset 0px 2px 5px black; 
+}
+
+.formulario__btn-registro{
+    width: 50%;
+    background-color: #F2EDDC;
+    color: #888C0D;
+    font-size: 20px;
+    box-shadow: 0px 2px 5px black;
+    margin-left: 25%;
+}
+
+.formulario__btn-registro:hover{
+    border-bottom: 2px solid #F2EDDC;
+    box-shadow: inset 0px 2px 5px black; 
+}
+
+.formulario__enlace:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
