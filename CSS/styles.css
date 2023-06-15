@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+
+@font-face{
+    font-family: Raleway;
+    src: url("../TIPOGRAFÍAS/Raleway/Raleway-VariableFont_wght.ttf");
+}
+
+@font-face{
+    font-family: Kaisei;
+    src: url("../TIPOGRAFÍAS/Kaisei_Tokumin/KaiseiTokumin-Regular.ttf");
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Kaisei;
+}
+
+:root{
+    --color-titulo: #F2DAAC;
+}
