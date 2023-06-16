@@ -3,11 +3,9 @@ body{
 }
 
 .reseña{
-    position: absolute;
-    display: block;
-    top: 20%;
-    left: 35%;
-    right: 35%;
+    display: inline-block;
+    margin: 2em 32em;
+    width: 30%;
     border-radius: 10px;
     text-align: center;
     color:var(--color-titulo);

@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo</title>
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="CSS/style_nav.css">
     <link rel="stylesheet" href="CSS/style_footer.css">
-    <link rel="stylesheet" href="CSS/style_catalogo.css">
+    <link rel="stylesheet" href="CSS/style_carrito.css">
+    <title>carrito</title>
 </head>
 <body>
     <header class="encabezado">
@@ -32,16 +32,11 @@
         </ul>
     </header>
     <main>
-        <section class="banner">
-            <figure class="banner__img">
-                <img src="IMÁGENES/belle-beauty-JPvy3rrWSeM-unsplash 1.svg" alt="Banner" class="figure__img">
-                <figcaption class="figure__text">Cuida tu belleza con lo natural</figcaption>
-            </figure>
-        </section>
         <section class="cards">
-                <div class="card">
+            <article class="card">
+                <div class="card__producto">
                     <div class="card__img">
-                        <img src="IMÁGENES/Rectangle 13producto1.svg" alt="Producto-1">
+                        <img src="IMÁGENES/Rectangle 13producto1.svg" alt="Producto-1" class="card__imagen">
                     </div>
                     <div class="card__text">
                         <div class="descripcion">
@@ -51,9 +46,20 @@
                         <a href=""><img src="IMÁGENES/shopping.svg" alt="carrito"></a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card__info">
+                    <p class="bold">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p class="bold">Lorem, ipsum.</p>
+                </div>
+                <div class="botones">
+                    <button class="btn-comprar">comprar</button>
+                    <button class="btn-eliminar">eliminar</button>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card__producto">
                     <div class="card__img">
-                        <img src="IMÁGENES/Rectangle 13producto2.svg" alt="Producto-1">
+                        <img src="IMÁGENES/Rectangle 13producto1.svg" alt="Producto-1" class="card__imagen">
                     </div>
                     <div class="card__text">
                         <div class="descripcion">
@@ -63,47 +69,16 @@
                         <a href=""><img src="IMÁGENES/shopping.svg" alt="carrito"></a>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card__img">
-                        <img src="IMÁGENES/Rectangle 13producto3.svg" alt="Producto-1">
-                    </div>
-                    <div class="card__text">
-                        <div class="descripcion">
-                            <p>Lorem, ipsum.</p>
-                            <p>$99.00</p>
-                        </div>
-                        <a href=""><img src="IMÁGENES/shopping.svg" alt="carrito"></a>
-                    </div>
+                <div class="card__info">
+                    <p class="bold">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p class="bold">Lorem, ipsum.</p>
                 </div>
-                <div class="card">
-                    <div class="card__img">
-                        <img src="IMÁGENES/Rectangle 13producto4.svg" alt="Producto-1">
-                    </div>
-                    <div class="card__text">
-                        <div class="descripcion">
-                            <p>Lorem, ipsum.</p>
-                            <p>$99.00</p>
-                        </div>
-                        <a href=""><img src="IMÁGENES/shopping.svg" alt="carrito"></a>
-                    </div>
+                <div class="botones">
+                    <button class="btn-comprar">comprar</button>
+                    <button class="btn-eliminar">eliminar</button>
                 </div>
-        </section>
-        <section class="carrusel">
-            <div class="carrusel__imagenes">
-                <div class="carrusel__img">
-                    <img src="IMÁGENES/carrusel-1.svg" alt="carrusel_imagen_1">
-                </div>
-                <div class="carrusel__img">
-                    <img src="IMÁGENES/carrusel-2.svg" alt="carrusel_imagen_2">
-                </div>
-                <div class="carrusel__img">
-                    <img src="IMÁGENES/carrusel-3.svg" alt="carrusel_imagen_3">
-                </div>
-            </div>
-            <div class="botones">
-                <button><img src="IMÁGENES/next-rtl.svg" alt="prev"></button>
-                <button><img src="IMÁGENES/next-ltr.svg" alt="next"></button>
-            </div>
+            </article>
         </section>
     </main>
     <footer>
@@ -145,5 +120,6 @@
             </article>
         </section>
     </footer>
+    
 </body>
 </html>
