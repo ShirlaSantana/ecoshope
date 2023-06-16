@@ -46,6 +46,41 @@ body{
     margin: 1rem;
 }
 
-.carrusel__imagenes{
+.contenido{
     display: flex;
+    overflow-x: scroll;
 }
+.elemento{
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+
+.carousel-btn {
+    background-color: #888c0dcd;
+    position: absolute;
+    top: 135%;
+    width: 60px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+.carousel-btn:hover {
+    background-color: #888C0D;
+    box-shadow: -5px 5px 5px rgba(128, 128, 128, 0.692);
+}
+
+.carousel-btn:disabled {
+    background-color: #f2eddc84;
+    box-shadow: none;
+}
+
+.carousel-prev {
+    left: 2%;
+}
+.carousel-next {
+    right: 2%;
+}
+

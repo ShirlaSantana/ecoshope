@@ -88,21 +88,21 @@
                     </div>
                 </div>
         </section>
-        <section class="carrusel">
-            <div class="carrusel__imagenes">
-                <div class="carrusel__img">
+        <section class="carousel">
+            <div class="contenido">
+                <div class="carrusel__img elemento" id="elemento1">
                     <img src="IMÁGENES/carrusel-1.svg" alt="carrusel_imagen_1">
                 </div>
-                <div class="carrusel__img">
+                <div class="carrusel__img elemento" id="elemento2">
                     <img src="IMÁGENES/carrusel-2.svg" alt="carrusel_imagen_2">
                 </div>
-                <div class="carrusel__img">
+                <div class="carrusel__img elemento" id="elemento3">
                     <img src="IMÁGENES/carrusel-3.svg" alt="carrusel_imagen_3">
                 </div>
             </div>
             <div class="botones">
-                <button><img src="IMÁGENES/next-rtl.svg" alt="prev"></button>
-                <button><img src="IMÁGENES/next-ltr.svg" alt="next"></button>
+                <button class="carousel-prev carousel-btn" disabled id="prev"><img src="IMÁGENES/next-rtl.svg" alt="prev"></button>
+                <button class="carousel-next carousel-btn" id="next"><img src="IMÁGENES/next-ltr.svg" alt="next"></button>
             </div>
         </section>
     </main>
@@ -145,5 +145,6 @@
             </article>
         </section>
     </footer>
+    <script src="JS/catalogo.js"></script>
 </body>
 </html>
