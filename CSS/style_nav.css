@@ -44,6 +44,13 @@ li a:hover {
 }
 
 .busqueda__barra{
+    text-indent: 20px;
+    margin-right: 10px; /* Espacio entre la barra de búsqueda y la imagen */
+    padding-left: 30px; /* Espacio para la imagen dentro de la barra de búsqueda */
+    background-image: url("/IMÁGENES/search.svg"); /* Ruta de la imagen */
+    background-position: left center; /* Alinear la imagen a la izquierda */
+    background-repeat: no-repeat;
+    background-size: 20px; /* Tamaño de la imagen */
     padding: 5px;
     width: 70%;
     border-radius: 5px;
