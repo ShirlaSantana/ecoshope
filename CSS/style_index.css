@@ -1,0 +1,88 @@
+.busqueda-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .busqueda__bar {
+    margin-top: 50px;
+    width: 50%;
+    height: 50px;
+    margin-right: 10px; /* Espacio entre la barra de búsqueda y la imagen */
+    padding-left: 30px; /* Espacio para la imagen dentro de la barra de búsqueda */
+    background-image: url("/IMÁGENES/lupa.svg"); /* Ruta de la imagen */
+    background-position: left center; /* Alinear la imagen a la izquierda */
+    background-repeat: no-repeat;
+    background-size: 20px; /* Tamaño de la imagen */
+    border-radius: 20px;
+    border: 2px solid green;
+  }
+  
+.seccion1 {
+    width: 1365px;
+    height: 800px;
+    background-image: url(/IMÁGENES/fondoUno.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.principal_titulo {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: #F2DAAC;
+    font-weight: bold;
+    padding-left: 10px; /* Espacio para el sombreado izquierdo */
+    text-shadow: -7px 0 2px rgba(0, 0, 0, 0.5); 
+}
+
+.presentacion_texto {
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    text-align: center;
+    color: #F2EDDC;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20%;
+  }
+  
+  .redes-sociales_icon {
+    margin: 0 5px; /* Espacio entre cada icono */
+  }
+  
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px; /* Ajusta la altura*/
+    width: 1365px; /* Ancho de la imagen */
+    background-image: url(/IMÁGENES/FondoDos.svg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.section2 div {
+    display: flex;
+    align-items: center;
+    gap: 50px; /* Espacio entre las imágenes */
+    margin-top: 50px; /* Espacio vertical */
+  }
+  
+  .p_section {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-size: 45px;
+    color: #B6E128;
+    font-weight: bold;
+    text-shadow: -7px 0 2px rgba(0, 0, 0, 0.5);
+  }
+  

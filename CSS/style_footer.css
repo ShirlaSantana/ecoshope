@@ -1,0 +1,82 @@
+footer {
+
+    background-image: linear-gradient(#222604 30%, #000000 70%);
+}
+
+p {
+    font-size: large;
+    color: #F2DAAC;
+    text-decoration: underline white;
+    text-underline-offset: 8px;
+    padding-bottom: 15px;
+}
+
+.texto {
+    text-decoration: none;
+}
+
+.cont_info{
+    display: flex;
+    justify-content: center;
+    }
+    
+.cont_info>*{
+    margin: 15px;
+    }
+
+.cont_contac {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    grid-template-rows: 50% 70%;
+}
+
+.cont_icons {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 27%);
+    grid-template-rows: repeat(2, 70%);
+}
+
+.cont_icons img {
+    width: 25px; 
+    height: 25px; 
+    margin: 8px;
+  }
+  
+.follow_us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cont_mailing {
+    display: grid;
+    grid-template-columns: repeat(1, 50%);
+    grid-template-rows: repeat(2, 60%);
+}
+
+.cont_email {
+    
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.elements {
+    display: flex;
+    align-items: center;
+
+}
+
+.icon_enlace {
+    width: 25px; 
+    height: 25px; 
+}
+
+
+
+
+

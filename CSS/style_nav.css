@@ -1,0 +1,75 @@
+.encabezado{
+    background-image: linear-gradient(#222604 30%, #000000 70%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px
+}
+
+.logo__menu{
+    height: 2rem;
+}
+
+
+
+.logo__imagen{
+    height: 2rem;
+}
+
+
+.navegacion li{
+    display: inline;
+    margin: 2px; 
+}
+
+.navegacion a{
+    color: #F2EDDC;
+    font-size: 16px;
+    padding: 7px 13px;
+}
+  
+li a:hover {
+    border-bottom: 2px solid #888C0D;
+    color:#888C0D ;
+}
+
+.busqueda{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.busqueda__barra{
+    text-indent: 20px;
+    margin-right: 10px; /* Espacio entre la barra de búsqueda y la imagen */
+    padding-left: 30px; /* Espacio para la imagen dentro de la barra de búsqueda */
+    background-image: url("/IMÁGENES/search.svg"); /* Ruta de la imagen */
+    background-position: left center; /* Alinear la imagen a la izquierda */
+    background-repeat: no-repeat;
+    background-size: 20px; /* Tamaño de la imagen */
+    padding: 5px;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.navegacion{
+    display: inline;
+    text-align: right;
+    width: 40%;
+    vertical-align: middle;
+}
+
+.enlaces{
+    width: 10%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main {
+    margin-top: 60px;
+}
