@@ -3,10 +3,8 @@ body{
 }
 
 .cards{
-    display: flex;
-    flex-direction: column;
+    margin-top: 80px;
 }
-
 .card{
     display: flex;
     margin: 2em 10em;

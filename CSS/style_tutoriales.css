@@ -1,0 +1,34 @@
+body{
+    background-image: url('../IMÁGENES/fondo-arena.svg');
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.cards{
+    margin-top: 80px;
+}
+
+.cards__tutorial{
+    display: flex;
+    margin: 2em 10em;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f2eddcc5;
+    gap: 30px;
+}
+
+.autor__img{
+    width: 15%;
+    border-radius: 200px;
+}
+
+.cards__autor>p{
+    display: inline;
+}
+
+.cards__autor{
+    text-align: right;
+    margin-top: 10px;
+}
