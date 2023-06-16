@@ -4,7 +4,7 @@
     justify-content: center;
   }
   
-  .busqueda__bar {
+  .principal_busqueda {
     margin-top: 50px;
     width: 50%;
     height: 50px;
@@ -18,7 +18,7 @@
     border: 2px solid green;
   }
   
-.seccion1 {
+.principal {
     width: 1365px;
     height: 800px;
     background-image: url(/IMÁGENES/fondoUno.png);
@@ -27,14 +27,14 @@
 }
 
 .principal_titulo {
+    color: var(--color-titulo); /* Uso de la variable */
     margin-top: 50px;
     text-align: center;
-    font-size: 40px;
-    color: #F2DAAC;
+    font-size: 50px;
     font-weight: bold;
     padding-left: 10px; /* Espacio para el sombreado izquierdo */
     text-shadow: -7px 0 2px rgba(0, 0, 0, 0.5); 
-}
+}  
 
 .presentacion_texto {
     text-decoration: none;
@@ -57,7 +57,7 @@
     margin: 0 5px; /* Espacio entre cada icono */
   }
   
-.section2 {
+.tutoriales {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,7 +68,7 @@
     background-position: center center;
 }
 
-.section2 div {
+.tutoriales div {
     display: flex;
     align-items: center;
     gap: 50px; /* Espacio entre las imágenes */
@@ -86,34 +86,76 @@
     text-shadow: -7px 0 2px rgba(0, 0, 0, 0.5);
 }
   
-.section3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 1365px; /* Ancho de la imagen */
-    height: 800px; /* Altura de la imagen */
-    background-image: url(/IMÁGENES/FondoTres.svg);
-    background-size: cover;
-    background-position: center center;
+.categorias{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1365px; /* Ancho de la imagen */
+  height: 800px; /* Altura de la imagen */
+  background-image: url(/IMÁGENES/FondoTres.svg);
+  background-size: cover;
+  background-position: center center;
 }
-  
-  .categorias {
-    display: flex;
-    justify-content: center;
-    gap: 20px; /* Espacio horizontal entre las imágenes */
-    margin-top: 50px;
-  }
-  
-  .categoria {
-    display: flex;
-    align-items: center;
-    gap: 10px; /* Espacio horizontal entre cada imagen en una categoría */
-  }
-  
-  .img_categoria {
-    width: 150px; /* Ajusta el tamaño de las imágenes */
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  
+
+.img_cat {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.articulos_img {
+  width: 20%; /* Tamaño de las imágenes de categoría */
+  margin-right: 55px; /* Separación entre las imágenes */
+}
+
+.marcas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1365px; /* Ancho de la imagen */
+  height: 800px; /* Altura de la imagen */
+  background-image: url(/IMÁGENES/FondoTres.svg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.imagenes {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%; /* Tamaño de la galería */
+  height: auto; /* Altura proporcionalmente */
+}
+
+.imagenes_marca {
+  width: 100%; /* Tamaño de la imagen */
+  height: auto; /* Altura proporcionalmente */
+}
+
+.productores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1365px; /* Ancho de la imagen */
+  height: 800px; /* Altura de la imagen */
+  background-image: url(/IMÁGENES/FondoCuatro.svg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.productos {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%; /* Tamaño de la galería */
+  height: auto; /* Altura proporcionalmente */
+}
+
+.productos_img {
+  width: 100%; /* Tamaño de la imagen */
+  height: auto; /* Altura proporcionalmente */
+}
+
