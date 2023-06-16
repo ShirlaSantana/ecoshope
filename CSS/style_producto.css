@@ -1,0 +1,88 @@
+body{
+    background-image: url('../IMÁGENES/fondo-arena.svg');
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.producto{
+    display: grid;
+    grid-template-areas:
+    "carrusel info"
+    "desc info";
+    grid-gap: 10px;
+    padding: 10px;
+    align-items: center;
+    position: relative;
+    top: 3em;
+    left: 17em;
+    margin-bottom: 150px;
+}
+
+.producto__carrusel{
+    grid-area: carrusel;
+}
+.producto__informacion{
+    grid-area: info;
+}
+
+.producto__descripcion{
+    grid-area: desc;
+}
+
+.btn-comprar{
+    background-color: #F2EDDC;
+    color: #888C0D;
+    box-shadow: 0px 2px 5px black;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.btn-comprar:hover{
+    border-bottom: 2px solid #F2EDDC;
+    box-shadow: inset 0px 2px 5px black; 
+}
+
+.btn-agregar{
+    background-color: #888C0D;
+    color: #F2EDDC;
+    box-shadow: 0px 2px 5px black;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.btn-agregar:hover{
+    border-bottom: 2px solid #888C0D;
+    box-shadow: inset 0px 2px 5px black; 
+}
+
+.autor__img{
+    width: 100%;
+    border-radius: 200px;
+}
+
+.producto__informacion{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.producto__informacion>*{
+    margin: 20px 50px;
+    text-align: center;
+}
+
+.contenido{
+    display: flex;
+    overflow-x: scroll;
+}
+.elemento{
+    flex: 100%;
+    text-align: center;
+}
+
+
+
+
+

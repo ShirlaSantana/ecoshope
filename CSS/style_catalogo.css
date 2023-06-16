@@ -51,7 +51,6 @@ body{
     overflow-x: scroll;
 }
 .elemento{
-    flex: 0 0 100%;
     text-align: center;
 }
 
