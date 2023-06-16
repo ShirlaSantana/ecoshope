@@ -11,7 +11,7 @@
     <main>
         <section class="registro">
             <h1 class="registro-titulo">¡Registrate!</h1>
-            <form class="registro-formulario" action="POST">
+            <form class="registro-formulario" action="">
                 <input type="text" placeholder="Ingresa tu nombre">
                 <input type="email" placeholder="Ingresa tu correo">
                 <input type="number" placeholder="Ingresa tu número de telefono">
@@ -29,9 +29,15 @@
                     <input type="checkbox">
                     <a href="">Terminos y condiciones</a>
                 </div>
-                <button type="submit" class="formulario__btn-enviar">Enviar</button>
+                <button onclick="alerta()" type="submit" class="formulario__btn-enviar">Enviar</button>
             </form>
         </section>
     </main>
+    <script>
+        function alerta(){
+            alert("¡Se guardaron tus datos!");
+            window.open("inicio-sesion.html");
+        }
+    </script>
 </body>
 </html>

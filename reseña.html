@@ -34,10 +34,10 @@
     <main>
         <section class="reseña">
             <h1 class="reseña__titulo">¡Déjanos tus comentarios!</h1>
-            <form action="POST" class="reseña__formulario">
+            <form action="" class="reseña__formulario">
                 <input type="text" placeholder="Nombre de usuario">
                 <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje aquí"></textarea>
-                <button type="submit" class="formulario__btn-enviar">Enviar</button>
+                <button onclick="alerta()" type="submit" class="formulario__btn-enviar">Enviar</button>
             </form>
         </section>
     </main>
@@ -80,5 +80,11 @@
             </article>
         </section>
     </footer>
+
+    <script>
+        function alerta(){
+            alert("¡Gracias por tus comentarios!");
+        }
+    </script>
 </body>
 </html>

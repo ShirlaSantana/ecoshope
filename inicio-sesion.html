@@ -13,14 +13,23 @@
                 <div class="contenedor__img">
                     <img src="IMÁGENES/Eco Shopping Bag Logo.png" alt="logo__imagen">
                 </div>
-                <form action="POST" class="formulario">
+                <form action="" class="formulario">
                     <input type="user" placeholder="Ingresa tu usuario">
                     <input type="password" placeholder="Ingresa tu contraseña">
-                    <button type="submit" class="formulario__btn-inicio">Iniciar sesion</button>
+                    <button onclick="login()" type="submit" class="formulario__btn-inicio">Iniciar sesion</button>
                     <a href="" class="formulario__enlace">¿Olvidaste tu contraseña? </a>
-                    <button type="submit" class="formulario__btn-registro">Registrate aqui</button>
+                    <button onclick="register()" type="submit" class="formulario__btn-registro">Registrate aqui</button>
                 </form>
         </section>
     </main>
+    <script>
+        function login(){
+            window.open("index.html");
+        }
+
+        function register(){
+            window.open("registro.html")
+        }
+    </script>
 </body>
 </html>
