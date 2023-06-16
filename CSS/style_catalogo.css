@@ -1,0 +1,51 @@
+body{
+    background-image: url('../IMÁGENES/fondo-arena.svg');
+}
+
+.banner__img{
+    text-align: center;
+}
+
+.figure__img{
+    width: 100%;
+}
+
+.figure__text{
+    position: absolute;
+    color: #888C0D;
+    font-weight: bold;
+    font-size: 20px;
+    top:25%;
+    width: 100%;
+    background-color: #f2eddc84;
+    padding: 30px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 3em 14em;
+}
+
+.card{
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card__text{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__text>*{
+    margin: 1rem;
+}
+
+.carrusel__imagenes{
+    display: flex;
+}

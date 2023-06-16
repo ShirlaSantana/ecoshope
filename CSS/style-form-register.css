@@ -56,3 +56,7 @@ body{
 a:hover{
     text-decoration: underline;
 }
+
+input:invalid {
+    border: 2px solid red;
+}
