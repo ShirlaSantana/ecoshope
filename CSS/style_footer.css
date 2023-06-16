@@ -1,0 +1,69 @@
+footer {
+    background-image: linear-gradient(#222604 30%, #000000 70%);
+}
+.cont_info{
+    color: #F2EDDC;
+    display: flex;
+    justify-content: center;
+    }
+    
+.cont_info>*{
+    margin: 30px;
+    }
+
+.contenedor_info {
+    font-size: 30px;
+    text-decoration: underline white;
+    padding-bottom: 15px;
+}
+
+.inline_elements >* {
+    display: inline;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.cont_contac {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    grid-template-rows: 70% 70%;
+}
+
+.cont_icons {
+    display: grid;
+    grid-template-columns: repeat(4, 27%);
+    grid-template-rows: repeat(2, 70%);
+}
+
+.follow_us {
+    text-align: center;
+}
+
+.cont_mailing {
+    display: grid;
+    grid-template-columns: repeat(1, 50%);
+    grid-template-rows: repeat(2, 60%);
+}
+
+.cont_email {
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.elements {
+    display: flex;
+    align-items: center;
+
+}
+
+.icon_enlace {
+    width: 25px; 
+    height: 25px; 
+}
+
+
+
+
+
